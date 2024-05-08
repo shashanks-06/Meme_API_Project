@@ -12,8 +12,6 @@ function getMeme() {
       authorOutput.innerText = `Meme By: ${author}`;
       memeTitle.innerText = title;
       memeImage.src = url;
-
-      console.log({ author, title, url });
     });
 }
 

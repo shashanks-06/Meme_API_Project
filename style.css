@@ -19,11 +19,12 @@ body {
 }
 
 .meme-title {
-  margin-top: 0;
+  margin: 0;
   font-size: 24px;
 }
 .author {
   margin-bottom: 0;
+  font-size: 0.75rem;
 }
 
 button {
@@ -50,4 +51,9 @@ button:active {
 img {
   width: 100%;
   border-radius: 8px;
+  margin: 0.5rem 0;
+}
+
+img:not([src]) {
+  display: none;
 }
